@@ -31,7 +31,7 @@ SQL, o Structured Query Language, es un lenguaje de programación especializado 
 
 ## Ejercicios Interesantes
 
-- [Apuntes SQL](./B_EJERCICIOS.md)
+- [Ejercicios SQL](./B_EJERCICIOS.md)
 
 ---
 
