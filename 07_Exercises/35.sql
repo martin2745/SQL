@@ -1,0 +1,12 @@
+/*
+Mostrar los siguientes datos relativos a empleados: apellido, número, nombre de departamento y localidad
+*/
+
+SELECT EMP_NO, E.DEP_NO, DNOMBRE, LOCALIDAD
+FROM VENTAS.EMPLEADOS E
+    INNER JOIN VENTAS.DEPARTAMENTOS D ON E.DEP_NO = D.DEP_NO;
+
+SELECT APELLIDO, E.EMP_NO, DNOMBRE, LOCALIDAD
+FROM VENTAS.EMPLEADOS E, VENTAS.DEPARTAMENTOS D
+WHERE
+    D.DEP_NO = E.DEP_NO;

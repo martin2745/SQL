@@ -1,0 +1,9 @@
+CREATE VIEW v_name_LANGUAGE AS
+SELECT language_id, name
+FROM LANGUAGES
+WHERE
+    name LIKE "J%";
+
+SELECT * FROM v_name_LANGUAGE;
+
+DROP VIEW v_name_LANGUAGE;
